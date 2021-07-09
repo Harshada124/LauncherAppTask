@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/row_linlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/s_10"
+        android:weightSum="2"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5">
+
+            <ImageView
+                android:id="@+id/appicon_imgvw"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/s_5"></ImageView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/appname_txtvw"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/s_5"
+                android:text="@string/app_name"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="@dimen/s_15" />
+
+            <TextView
+                android:id="@+id/pckgnm_txtvw"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/s_5"
+                android:text="@string/app_name"
+                android:textColor="@color/black"
+                android:textSize="@dimen/s_15" />
+
+            <TextView
+                android:id="@+id/vercode_txtvw"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/s_5"
+                android:text="@string/app_name"
+                android:textColor="@color/black"
+                android:textSize="@dimen/s_15" />
+
+            <TextView
+                android:id="@+id/vernm_txtvw"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/s_5"
+                android:text="@string/app_name"
+                android:textColor="@color/black"
+                android:textSize="@dimen/s_15" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+*/
+</androidx.constraintlayout.widget.ConstraintLayout>
